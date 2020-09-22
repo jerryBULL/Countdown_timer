@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('pexels-jonathan-petersson-399610.jpg');
+    min-height: 100vh;
+    background-size: cover;
+    background-position: 50% 20%;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    
+}
+.title{
+    font-size: 3.5rem;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.big-text{  
+    font-size: 6rem;
+    line-height: 1;
+    margin: 1vw;
+}
+span{
+    font-size: 1.5rem;
+}
